@@ -3,7 +3,6 @@ $purple: #4B3F73;
 $sherbert: #F2A662;
 $peach: #F1BB9B;
 $rose: #D97373;
-
 body {
     margin: 0;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -11,16 +10,16 @@ body {
       sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-  }
+}
   
-  code {
+code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
       monospace;
-  }
+}
 
 .App {
     text-align: center;
-  }
+}
   
 .App-header {
     background-color: #282c34;
