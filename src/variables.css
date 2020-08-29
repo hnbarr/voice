@@ -1,0 +1,16 @@
+.jumbotron {
+  min-height: 80vh;
+  min-width: 100vw;
+  border-radius: 0 !important;
+  margin: 0 auto;
+  margin-top: 0;
+}
+
+.jumbotron p {
+  margin: 3rem 0;
+}
+
+.btn-peach {
+  background-color: #F1BB9B !important;
+}
+/*# sourceMappingURL=variables.css.map */

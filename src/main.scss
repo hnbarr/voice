@@ -1,14 +1,4 @@
-// colors
-$plum: #592642;
-$purple: #4B3F73;
-$sherbert: #F2A662;
-$peach: #F1BB9B;
-$rose: #D97373;
-$navy: #282c34;
-$white: white;
-// themes
-$intro: $plum;
-
+@import './variables.scss';
 body {
     margin: 0;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -25,22 +15,27 @@ code {
 
 .App {
     text-align: center;
-}
-  
-.App-header {
-    background-color: $intro;
-    min-height: 100vh;
+    padding: 0px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    font-size: calc(10px + 2vmin);
-    color: $white;
 }
 
 //Intro Component Styling
 #IntroComponent {
     .jumbotron {
-        background-color: $intro !important;
+        background-color: $peach !important;
+    }
+}
+
+//Vote Component Styling
+#VoteComponent {
+    .jumbotron {
+        background-color: $dark !important;
+        color: $light;
+        button .btn-peach {
+            background-color: $peach !important;
+        }
     }
 }

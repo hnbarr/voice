@@ -1,0 +1,26 @@
+// colors
+$plum: #592642;
+$purple: #4B3F73;
+$sherbert: #F2A662;
+$peach: #F1BB9B;
+$rose: #D97373;
+$navy: #282c34;
+$light: #e9ecef;
+$dark: #343a40;
+
+//bootstrap component overrides
+.jumbotron {
+    min-height: 80vh;
+    min-width: 100vw;
+    border-radius: 0 !important;
+    margin: 0 auto;
+    margin-top: 0;
+    p {
+        margin: 3rem 0;
+    }
+}
+
+//buttons
+.btn-peach {
+    background-color: $peach !important;
+}
