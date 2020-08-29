@@ -14,7 +14,7 @@ code {
 }
 
 .App-header {
-  background-color: #F1BB9B;
+  background-color: #592642;
   min-height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -34,6 +34,6 @@ code {
 }
 
 #IntroComponent .jumbotron {
-  background-color: #F1BB9B !important;
+  background-color: #592642 !important;
 }
 /*# sourceMappingURL=main.css.map */

@@ -1,3 +1,4 @@
+// colors
 $plum: #592642;
 $purple: #4B3F73;
 $sherbert: #F2A662;
@@ -5,6 +6,8 @@ $peach: #F1BB9B;
 $rose: #D97373;
 $navy: #282c34;
 $white: white;
+// themes
+$intro: $plum;
 
 body {
     margin: 0;
@@ -25,7 +28,7 @@ code {
 }
   
 .App-header {
-    background-color: $peach;
+    background-color: $intro;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -38,6 +41,6 @@ code {
 //Intro Component Styling
 #IntroComponent {
     .jumbotron {
-        background-color: $peach !important;
+        background-color: $intro !important;
     }
 }
