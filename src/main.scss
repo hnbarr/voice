@@ -25,15 +25,9 @@ html {
     }
   }
   
-//   @include media-breakpoint-up(md) {
-//     html {
-//       font-size: 1rem;
-//     }
-//   }
-  
   @include media-breakpoint-up(xl) {
     html {
-      font-size: 1rem;
+      font-size: .95rem;
     }
   }
 
