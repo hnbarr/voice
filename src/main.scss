@@ -43,7 +43,8 @@ html {
 //Intro Component Styling
 #IntroComponent {
     .jumbotron {
-        background-color: $peach !important;
+        // background-color: #D8B061 !important;
+        background-image: url(./images/floor-tile.png);
     }
 }
 
@@ -60,7 +61,7 @@ html {
         margin-top: 1rem;
         background-color: $light !important;
         color: $navy !important;
-        box-shadow: 8px 5px 0px $peach;
+        box-shadow: 7px 6px 0px #BFB8A3;
     }
 }
 
@@ -74,7 +75,7 @@ html {
         margin-top: 1rem;
         background-color: #BFB8A3 !important;
         color: $navy !important;
-        box-shadow: 8px 5px 0px rgb(162, 145, 123);
+        box-shadow: 7px 6px 0px #8c7659;
         // .btn-sherbert {
         //     border: 1px solid $dark;
         //     color: $dark;
@@ -82,5 +83,12 @@ html {
         //         border: 2px solid $light;            
         //     }
         // }
+    }
+}
+
+#PurposeComponent {
+    .jumbotron {
+        background-image: url(./images/memphis-mini.png);
+        min-height: 100vh;
     }
 }

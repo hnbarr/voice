@@ -10,7 +10,7 @@ export default class Intro extends Component {
                     <p className="lead col-md-8">Here to help you understand our goverment's bits n pieces. Because if you're like us, I'm sure you've struggled with finding relevant information on what you actually care about online.</p>
                     <hr className="my-4"/>
                     <p>We're just two people trying to do our part in making an actual difference, the best that we can.</p>
-                    <a className="btn btn-dark btn-lg" href="/" role="button">Learn more</a>
+                    <a className="btn btn-dark btn-lg" href="/WhoWeAre" role="button">Get Involved</a>
                 </div>
             </div>
         )

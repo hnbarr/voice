@@ -10849,7 +10849,7 @@ html {
 }
 
 #IntroComponent .jumbotron {
-  background-color: #F1BB9B !important;
+  background-image: url(./images/floor-tile.png);
 }
 
 #VoteComponent .jumbotron {
@@ -10865,8 +10865,8 @@ html {
   margin-top: 1rem;
   background-color: #e9ecef !important;
   color: #282c34 !important;
-  -webkit-box-shadow: 8px 5px 0px #F1BB9B;
-          box-shadow: 8px 5px 0px #F1BB9B;
+  -webkit-box-shadow: 7px 6px 0px #BFB8A3;
+          box-shadow: 7px 6px 0px #BFB8A3;
 }
 
 #RegistrationInfoComponent .jumbotron {
@@ -10877,7 +10877,12 @@ html {
   margin-top: 1rem;
   background-color: #BFB8A3 !important;
   color: #282c34 !important;
-  -webkit-box-shadow: 8px 5px 0px #a2917b;
-          box-shadow: 8px 5px 0px #a2917b;
+  -webkit-box-shadow: 7px 6px 0px #8c7659;
+          box-shadow: 7px 6px 0px #8c7659;
+}
+
+#PurposeComponent .jumbotron {
+  background-image: url(./images/memphis-mini.png);
+  min-height: 100vh;
 }
 /*# sourceMappingURL=main.css.map */

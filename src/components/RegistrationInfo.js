@@ -17,7 +17,7 @@ export default class RegistrationInfo extends Component {
                             <div className="card-body">
                                 <h5 className="card-title">Local</h5>
                                 <p className="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                                <a href="/" className="btn btn-light">Search by Zip</a>
+                                <a href="/LocalRegistrationInformation" className="btn btn-light">Search by Zip</a>
                             </div>
                             </div>
                         </div>
@@ -26,7 +26,7 @@ export default class RegistrationInfo extends Component {
                             <div className="card-body">
                                 <h5 className="card-title">State</h5>
                                 <p className="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                                <a href="/" className="btn btn-light">Search by State</a>
+                                <a href="/StateRegistrationInformation" className="btn btn-light">Search by State</a>
                             </div>
                             </div>
                         </div>
@@ -35,7 +35,7 @@ export default class RegistrationInfo extends Component {
                             <div className="card-body">
                                 <h5 className="card-title">US</h5>
                                 <p className="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                                <a href="/" className="btn btn-light">Search now</a>
+                                <a href="/USRegistrationInformation" className="btn btn-light">Search now</a>
                             </div>
                             </div>
                         </div>

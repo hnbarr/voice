@@ -17,7 +17,7 @@ export default class Vote extends Component {
                             <div className="card-body">
                                 <h5 className="card-title">Register Now</h5>
                                 <p className="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                                <a href="/Vote" className="btn btn-dark">Lets Go!</a>
+                                <a href="/RegisterNow" className="btn btn-dark">Lets Go!</a>
                             </div>
                             </div>
                         </div>
@@ -26,7 +26,7 @@ export default class Vote extends Component {
                             <div className="card-body">
                                 <h5 className="card-title">Am I registered?</h5>
                                 <p className="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                                <a href="/Vote" className="btn btn-dark">Lemme Check!</a>
+                                <a href="/CheckMyRegistration" className="btn btn-dark">Lemme Check!</a>
                             </div>
                             </div>
                         </div>
