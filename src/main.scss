@@ -25,9 +25,12 @@ html {
     }
   }
   
-  @include media-breakpoint-up(xl) {
+  @include media-breakpoint-up(xxl) {
     html {
       font-size: .95rem;
+    }
+    .jumbotron {
+        min-height: 80vh;
     }
   }
 
@@ -40,7 +43,6 @@ html {
 //Intro Component Styling
 #IntroComponent {
     .jumbotron {
-        margin-top: 25px;
         background-color: $peach !important;
     }
 }
@@ -48,10 +50,37 @@ html {
 //Vote Component Styling
 #VoteComponent {
     .jumbotron {
-        background-color: $dark !important;
+        background-color: $navy !important;
         color: $light;
         button .btn-peach {
             background-color: $peach !important;
         }
+    }
+    .card {
+        margin-top: 1rem;
+        background-color: $light !important;
+        color: $navy !important;
+        box-shadow: 8px 5px 0px $peach;
+    }
+}
+
+//Registration Info Component Styling
+#RegistrationInfoComponent {
+    .jumbotron {
+        // background-color: rgba(191, 184, 163, 0.913) !important;
+        color: $dark;
+    }
+    .card {
+        margin-top: 1rem;
+        background-color: #BFB8A3 !important;
+        color: $navy !important;
+        box-shadow: 8px 5px 0px rgb(162, 145, 123);
+        // .btn-sherbert {
+        //     border: 1px solid $dark;
+        //     color: $dark;
+        //     :hover {
+        //         border: 2px solid $light;            
+        //     }
+        // }
     }
 }

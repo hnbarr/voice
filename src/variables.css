@@ -1,5 +1,5 @@
 .jumbotron {
-  min-height: 80vh;
+  min-height: 50vh;
   min-width: 100vw;
   border-radius: 0 !important;
   margin: 0 auto;
@@ -12,5 +12,21 @@
 
 .btn-peach {
   background-color: #F1BB9B !important;
+}
+
+.btn-purple {
+  background-color: #4B3F73 !important;
+}
+
+.btn-sherbert {
+  background-color: #F2A662 !important;
+}
+
+.btn-rose {
+  background-color: #D97373 !important;
+}
+
+.btn-navy {
+  background-color: #282c34 !important;
 }
 /*# sourceMappingURL=variables.css.map */

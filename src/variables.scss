@@ -12,7 +12,7 @@ $dark: #343a40;
 
 //bootstrap component overrides
 .jumbotron {
-    min-height: 80vh;
+    min-height: 50vh;
     min-width: 100vw;
     border-radius: 0 !important;
     margin: 0 auto;
@@ -25,4 +25,16 @@ $dark: #343a40;
 //buttons
 .btn-peach {
     background-color: $peach !important;
+}
+.btn-purple {
+    background-color: $purple !important;
+}
+.btn-sherbert {
+    background-color: $sherbert !important;
+}
+.btn-rose {
+    background-color: $rose !important;
+}
+.btn-navy {
+    background-color: $navy !important;
 }

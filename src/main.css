@@ -1,5 +1,5 @@
 .jumbotron {
-  min-height: 80vh;
+  min-height: 50vh;
   min-width: 100vw;
   border-radius: 0 !important;
   margin: 0 auto;
@@ -12,6 +12,22 @@
 
 .btn-peach {
   background-color: #F1BB9B !important;
+}
+
+.btn-purple {
+  background-color: #4B3F73 !important;
+}
+
+.btn-sherbert {
+  background-color: #F2A662 !important;
+}
+
+.btn-rose {
+  background-color: #D97373 !important;
+}
+
+.btn-navy {
+  background-color: #282c34 !important;
 }
 
 /*!
@@ -10812,9 +10828,12 @@ html {
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1400px) {
   html {
     font-size: .95rem;
+  }
+  .jumbotron {
+    min-height: 80vh;
   }
 }
 
@@ -10830,16 +10849,35 @@ html {
 }
 
 #IntroComponent .jumbotron {
-  margin-top: 25px;
   background-color: #F1BB9B !important;
 }
 
 #VoteComponent .jumbotron {
-  background-color: #343a40 !important;
+  background-color: #282c34 !important;
   color: #e9ecef;
 }
 
 #VoteComponent .jumbotron button .btn-peach {
   background-color: #F1BB9B !important;
+}
+
+#VoteComponent .card {
+  margin-top: 1rem;
+  background-color: #e9ecef !important;
+  color: #282c34 !important;
+  -webkit-box-shadow: 8px 5px 0px #F1BB9B;
+          box-shadow: 8px 5px 0px #F1BB9B;
+}
+
+#RegistrationInfoComponent .jumbotron {
+  color: #343a40;
+}
+
+#RegistrationInfoComponent .card {
+  margin-top: 1rem;
+  background-color: #BFB8A3 !important;
+  color: #282c34 !important;
+  -webkit-box-shadow: 8px 5px 0px #a2917b;
+          box-shadow: 8px 5px 0px #a2917b;
 }
 /*# sourceMappingURL=main.css.map */

@@ -1,15 +1,38 @@
 import React, { Component } from 'react'
+import Navbar from './Navbar';
 
 export default class Vote extends Component {
     render() {
         return (
-            <div id="VoteComponent">
+            <div id="VoteComponent" className="component">
+                <Navbar/>
+                <div className="mobile-spacer"></div>
                 <div className="jumbotron">
-                    <h1 className="display-4">Are you voteready?</h1>
+                    <h1 className="display-4 mt-4 mt-md-0">Are you voteready?</h1>
                     <p className="lead">Test second component aded</p>
                     <hr className="my-4"/>
-                    <p>Test</p>
-                    <a className="btn btn-peach btn-lg" href="/" role="button">Learn more</a>
+                    <div className="row">
+                        <div className="col-sm-4 m-0 m-md-2">
+                            <div className="card">
+                            <div className="card-body">
+                                <h5 className="card-title">Register Now</h5>
+                                <p className="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                                <a href="/Vote" className="btn btn-dark">Lets Go!</a>
+                            </div>
+                            </div>
+                        </div>
+                        <div className="col-sm-4 my-2 m-md-2">
+                            <div className="card">
+                            <div className="card-body">
+                                <h5 className="card-title">Am I registered?</h5>
+                                <p className="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                                <a href="/Vote" className="btn btn-dark">Lemme Check!</a>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                    {/* <p>Test</p>
+                    <a className="btn btn-peach btn-lg" href="/" role="button">Learn more</a> */}
                 </div>
             </div>
         )
