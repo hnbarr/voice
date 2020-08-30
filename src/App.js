@@ -1,15 +1,16 @@
 import React from 'react';
 import './main.css';
-import Intro from './components/Intro';
-import Vote from './components/Vote';
+import { BrowserRouter } from 'react-router-dom'
+import Router from './Router'
 
 
 function App() {
   return (
-    <div className="App">
-      <Intro/>
-      <Vote/>
-    </div>
+    <BrowserRouter>
+        <div className="App">
+            <Router />
+        </div>
+      </BrowserRouter>
   );
 }
 

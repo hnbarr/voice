@@ -1,30 +1,52 @@
 @import './variables.scss';
+@import "./../node_modules/bootstrap/scss/bootstrap";
+@import "./../node_modules/bootstrap/scss/functions";
+@import "./../node_modules/bootstrap/scss/variables";
+@import "./../node_modules/bootstrap/scss/mixins";
+
 body {
     margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-      sans-serif;
+    // font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    //   'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    //   sans-serif;
+    // font-family: 'Open Sans', sans-serif;
+    font-family: 'Lexend Mega', sans-serif;
+    // font-family: 'Montserrat', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+html {
+    font-size: .85rem;
+  }
   
-code {
-    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-      monospace;
-}
+  @include media-breakpoint-up(sm) {
+    html {
+      font-size: .9rem;
+    }
+  }
+  
+//   @include media-breakpoint-up(md) {
+//     html {
+//       font-size: 1rem;
+//     }
+//   }
+  
+  @include media-breakpoint-up(xl) {
+    html {
+      font-size: 1rem;
+    }
+  }
 
 .App {
-    text-align: center;
     padding: 0px;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
 }
 
 //Intro Component Styling
 #IntroComponent {
     .jumbotron {
+        margin-top: 25px;
         background-color: $peach !important;
     }
 }
