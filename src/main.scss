@@ -40,11 +40,30 @@ html {
     flex-direction: column;
 }
 
+.tape {
+    background-image: url(./images/vintage-concrete.png);
+    margin: 0 auto;
+    width: 60%;
+    height: 10%;
+    z-index: 2; 
+    position:relative;
+    top: -20px; 
+}
+
 //Intro Component Styling
 #IntroComponent {
     .jumbotron {
         // background-color: #D8B061 !important;
-        background-image: url(./images/floor-tile.png);
+        background-image: url(./images/cork-board.png);
+        #note {
+            position:relative;
+            -ms-transform: rotate(7deg); /* IE 9 */
+            -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
+            transform: rotate(2deg);
+            border-radius: 2px;
+            background-image: url(./images/linedpaper.png);
+            box-shadow: 4px 4px 0px $dark;
+        }
     }
 }
 
@@ -53,37 +72,35 @@ html {
     .jumbotron {
         background-color: $navy !important;
         color: $light;
-        button .btn-peach {
-            background-color: $peach !important;
-        }
     }
     .card {
         margin-top: 1rem;
         background-color: $light !important;
         color: $navy !important;
-        box-shadow: 7px 6px 0px #BFB8A3;
+        box-shadow: 6px 6px 0px lighten($dark, 5%);
+        &:hover {
+            box-shadow: 6px 6px 0px lighten($dark, 20%);
+        }
     }
 }
 
 //Registration Info Component Styling
 #RegistrationInfoComponent {
     .jumbotron {
-        // background-color: rgba(191, 184, 163, 0.913) !important;
-        background-color: #EEEBE1 !important;
+        background-image: url(./images/linedpaper.png);
         color: $dark;
     }
     .card {
         margin-top: 1rem;
-        background-color: #BFB8A3 !important;
+        background-color: #f5f5f5;
+        opacity: .7;
         color: $navy !important;
-        box-shadow: 7px 6px 0px #8c7659;
-        // .btn-sherbert {
-        //     border: 1px solid $dark;
-        //     color: $dark;
-        //     :hover {
-        //         border: 2px solid $light;            
-        //     }
-        // }
+        box-shadow: 6px 6px 0px lighten($dark, 20%);
+        &:hover {
+            // box-shadow: 7px 6px 0px #8c7659;
+            opacity: 1;
+            box-shadow: 6px 6px 0px $dark;
+        }
     }
 }
 
@@ -91,5 +108,13 @@ html {
     .jumbotron {
         background-image: url(./images/memphis-mini.png);
         min-height: 100vh;
+    }
+}
+
+// Footer
+#footer {
+    .btn-link {
+        color: $light;
+        text-decoration: none;
     }
 }

@@ -10848,8 +10848,30 @@ html {
           flex-direction: column;
 }
 
+.tape {
+  background-image: url(./images/vintage-concrete.png);
+  margin: 0 auto;
+  width: 60%;
+  height: 10%;
+  z-index: 2;
+  position: relative;
+  top: -20px;
+}
+
 #IntroComponent .jumbotron {
-  background-image: url(./images/floor-tile.png);
+  background-image: url(./images/cork-board.png);
+}
+
+#IntroComponent .jumbotron #note {
+  position: relative;
+  /* IE 9 */
+  -webkit-transform: rotate(7deg);
+  /* Chrome, Safari, Opera */
+  transform: rotate(2deg);
+  border-radius: 2px;
+  background-image: url(./images/linedpaper.png);
+  -webkit-box-shadow: 4px 4px 0px #343a40;
+          box-shadow: 4px 4px 0px #343a40;
 }
 
 #VoteComponent .jumbotron {
@@ -10857,32 +10879,46 @@ html {
   color: #e9ecef;
 }
 
-#VoteComponent .jumbotron button .btn-peach {
-  background-color: #F1BB9B !important;
-}
-
 #VoteComponent .card {
   margin-top: 1rem;
   background-color: #e9ecef !important;
   color: #282c34 !important;
-  -webkit-box-shadow: 7px 6px 0px #BFB8A3;
-          box-shadow: 7px 6px 0px #BFB8A3;
+  -webkit-box-shadow: 6px 6px 0px #3f474e;
+          box-shadow: 6px 6px 0px #3f474e;
+}
+
+#VoteComponent .card:hover {
+  -webkit-box-shadow: 6px 6px 0px #626d78;
+          box-shadow: 6px 6px 0px #626d78;
 }
 
 #RegistrationInfoComponent .jumbotron {
+  background-image: url(./images/linedpaper.png);
   color: #343a40;
 }
 
 #RegistrationInfoComponent .card {
   margin-top: 1rem;
-  background-color: #BFB8A3 !important;
+  background-color: #f5f5f5;
+  opacity: .7;
   color: #282c34 !important;
-  -webkit-box-shadow: 7px 6px 0px #8c7659;
-          box-shadow: 7px 6px 0px #8c7659;
+  -webkit-box-shadow: 6px 6px 0px #626d78;
+          box-shadow: 6px 6px 0px #626d78;
+}
+
+#RegistrationInfoComponent .card:hover {
+  opacity: 1;
+  -webkit-box-shadow: 6px 6px 0px #343a40;
+          box-shadow: 6px 6px 0px #343a40;
 }
 
 #PurposeComponent .jumbotron {
   background-image: url(./images/memphis-mini.png);
   min-height: 100vh;
+}
+
+#footer .btn-link {
+  color: #e9ecef;
+  text-decoration: none;
 }
 /*# sourceMappingURL=main.css.map */

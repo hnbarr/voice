@@ -13,7 +13,7 @@ export default class Navbar extends Component {
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav mr-auto">
                         <li className="nav-item active">
-                            <Link className="nav-link" to='/Vote' id='dashBtn'> Vote </Link> 
+                            <Link className="nav-link" to='VoteReady' id='dashBtn'> Vote </Link> 
                         </li>
                         <li className="nav-item">
                             <a className="nav-link" href="/">Link</a>

@@ -3,6 +3,7 @@ import Intro from './Intro';
 import Vote from './Vote';
 import Navbar from './Navbar';
 import RegistrationInfo from './RegistrationInfo';
+import Footer from './Footer';
 
 export default class Home extends Component {
     render() {
@@ -12,6 +13,7 @@ export default class Home extends Component {
                 <Intro />
                 <Vote />
                 <RegistrationInfo />
+                <Footer />
             </div>
         )
     }
