@@ -11,6 +11,7 @@ const Router = () => {
         <Switch>
             <Route exact path='/' component={Home}></Route>
             <Route path='/WhoWeAre' component={Purpose}></Route>
+            <Route path='/Vote' component={Vote}></Route>
             <Route path='/RegisterNow' component={Vote}></Route>
             <Route path='/CheckMyRegistration' component={Vote}></Route>
             <Route path="/LocalRegistrationInformation" component={RegistrationInfo}></Route>
