@@ -43,8 +43,6 @@ export default class RegistrationInfo extends Component {
                             </div>
                         </div>
                     </div>
-                    {/* <p>Test</p>
-                    <a className="btn btn-peach btn-lg" href="/" role="button">Learn more</a> */}
                 </div>
             </div>
         )

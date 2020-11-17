@@ -9,10 +9,9 @@ export default function Footer() {
                     <p className="col-12">motto?</p>
                 </section>
                 <section className="text-light col-12 col-md-3 col-lg-4 secondary row">
-                    <a className="btn btn-link col-12" href="/">Link</a>
-                    <a className="btn btn-link col-12" href="/">Link</a>
-                    <a className="btn btn-link col-12" href="/">Link</a>
-                    <a className="btn btn-link col-12" href="/">Link</a>
+                    <a className="btn btn-link col-12" href="/Vote">#voteready</a>
+                    <a className="btn btn-link col-12" href="/RegisterNow">Register to Vote!</a>
+                    <a className="btn btn-link col-12" href="/CheckMyRegistration">Check Your Voter Registration!</a>
                 </section>
                 <section className="text-light col-12 col-md-3 col-lg-4 teritary row">
                     Contact here?

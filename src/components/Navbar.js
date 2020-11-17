@@ -16,10 +16,10 @@ export default class Navbar extends Component {
                             <Link className="nav-link" to='VoteReady' id='dashBtn'> Vote </Link> 
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="/">Link</a>
+                            <a className="nav-link" href="/RegisterNow">Register Now</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link disabled" href="/">Disabled</a>
+                            <a className="nav-link disabled" href="/RegisterNow">Check My Registration Status</a>
                         </li>
                         </ul>
                         {/* <form className="form-inline my-2 my-lg-0">

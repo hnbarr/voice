@@ -18,7 +18,7 @@ export default class Purpose extends Component {
                             </span>
                         </p>
                         <p className="col-md-8">We're trying to help with that, so if you'd like to help support our cause, share this app, talk about voting, register and head to the polls when it's time! Also, if you'd like to support us, <b>we love donations</b>, thank you! </p>
-                        <a className="btn btn-dark btn-lg" href="/" role="button">Donate</a>
+                        <a className="btn btn-dark btn-lg" href="paypal.me/HeatherBarr332" role="button">Donate</a>
                     </div>
                 </div>
             </div>
