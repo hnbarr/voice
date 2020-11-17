@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/voice/static/css/main.3cd3ef8c.chunk.css",
+    "main.js": "/voice/static/js/main.621784da.chunk.js",
+    "main.js.map": "/voice/static/js/main.621784da.chunk.js.map",
+    "runtime-main.js": "/voice/static/js/runtime-main.1c4c853a.js",
+    "runtime-main.js.map": "/voice/static/js/runtime-main.1c4c853a.js.map",
+    "static/js/2.6f89fa02.chunk.js": "/voice/static/js/2.6f89fa02.chunk.js",
+    "static/js/2.6f89fa02.chunk.js.map": "/voice/static/js/2.6f89fa02.chunk.js.map",
+    "index.html": "/voice/index.html",
+    "precache-manifest.b0dbdf160892b4d12949fd794f2a9a64.js": "/voice/precache-manifest.b0dbdf160892b4d12949fd794f2a9a64.js",
+    "service-worker.js": "/voice/service-worker.js",
+    "static/css/main.3cd3ef8c.chunk.css.map": "/voice/static/css/main.3cd3ef8c.chunk.css.map",
+    "static/js/2.6f89fa02.chunk.js.LICENSE.txt": "/voice/static/js/2.6f89fa02.chunk.js.LICENSE.txt",
+    "static/media/main.css": "/voice/static/media/vintage-concrete.044ec988.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1c4c853a.js",
+    "static/js/2.6f89fa02.chunk.js",
+    "static/css/main.3cd3ef8c.chunk.css",
+    "static/js/main.621784da.chunk.js"
+  ]
+}
