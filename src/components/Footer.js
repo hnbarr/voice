@@ -2,19 +2,16 @@ import React from 'react'
 
 export default function Footer() {
     return (
-        <div className="container-fluid bg-dark p-3" id="footer">
-            <div className="row mx-5">
-                <section className="text-light col-12 col-md-3 col-lg-4 primary row">
-                    <p className="col-12">logo?</p>
-                    <p className="col-12">motto?</p>
+        <div className="component bg-dark p-3" id="footer">
+            <div className="row d-flex justify-content-between">
+                <section className="text-light text-center col primary col">
+                    <a href="mailto:hnbarr94@gmail.com">Contact Us!</a>
                 </section>
-                <section className="text-light col-12 col-md-3 col-lg-4 secondary row">
-                    <a className="btn btn-link col-12" href="/VoteReady">#voteready</a>
-                    <a className="btn btn-link col-12" href="/RegisterNow">Register to Vote!</a>
-                    <a className="btn btn-link col-12" href="/CheckMyRegistration">Check Your Voter Registration!</a>
+                <section className="text-light text-center col secondary col">
+                    <a className="btn btn-link" href="/VoteReady">Get #voteready!</a>
                 </section>
-                <section className="text-light col-12 col-md-3 col-lg-4 teritary row">
-                    Contact here?
+                <section className="text-light text-center col teritary col">
+                    <a className="btn btn-link" href="/RegisterNow">Resources!</a>
                 </section>
             </div>
         </div>

@@ -5,21 +5,21 @@ export default class Navbar extends Component {
     render() {
         return (
             <div>
-                <nav className="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+                <nav className="navbar fixed-top navbar-expand-md navbar-dark bg-dark">
                     <Link className="navbar-brand" to='/' id='dashBtn'> MVM </Link> 
                     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav mr-auto">
-                        <li className="nav-item active">
-                            <Link className="nav-link" to='VoteReady' id='dashBtn'> Vote </Link> 
+                        <li className="nav-item mx-3 active">
+                            <a className="nav-link" href="/VoteReady">Vote</a>
                         </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="/RegisterNow">Register Now</a>
+                        <li className="nav-item mx-3">
+                            <a className="nav-link disabled" href="/RegisterNow">Register Now</a>
                         </li>
-                        <li className="nav-item">
-                            <a className="nav-link disabled" href="/RegisterNow">Check My Registration Status</a>
+                        <li className="nav-item mx-3">
+                            <a className="nav-link disabled" href="/CheckMyRegistration">Check My Registration Status</a>
                         </li>
                         </ul>
                         {/* <form className="form-inline my-2 my-lg-0">

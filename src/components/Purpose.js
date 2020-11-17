@@ -1,11 +1,9 @@
 import React, { Component } from 'react'
-import Navbar from './Navbar';
 
 export default class Purpose extends Component {
     render() {
         return (
             <div id="PurposeComponent" className="component">
-            <Navbar/>
             <div className="mobile-spacer"></div>
                 <div className="jumbotron row container">
                     <div className="col-10 offset-1">
