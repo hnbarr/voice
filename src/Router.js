@@ -12,8 +12,8 @@ const Router = () => {
             <Route exact path='/' component={Home}></Route>
             <Route path='/WhoWeAre' component={Purpose}></Route>
             <Route path='/VoteReady' component={Vote}></Route>
-            <Route path='/RegisterNow' component={Vote}></Route>
-            <Route path='/CheckMyRegistration' component={Vote}></Route>
+            <Route path='/RegisterNow' component={RegistrationInfo}></Route>
+            <Route path='/CheckMyRegistration' component={RegistrationInfo}></Route>
             <Route path="/LocalRegistrationInformation" component={RegistrationInfo}></Route>
             <Route path="/StateRegistrationInformation" component={RegistrationInfo}></Route>
             <Route path="/USRegistrationInformation" component={RegistrationInfo}></Route>
