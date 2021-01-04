@@ -6,7 +6,7 @@ export default class Navbar extends Component {
         return (
             <div>
                 <nav className="navbar fixed-top navbar-expand-md navbar-dark bg-dark row">
-                    <div className="brand col-7">
+                    <div className="brand col-3 col-md-7 col-lg-8 col-xxl-9">
                         <a className="navbar-brand" href='/' id='dashBtn'> MVM </a> 
                     </div>
                     <button className="navbar-toggler col-2" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
