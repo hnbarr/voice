@@ -30,7 +30,7 @@ export default class Purpose extends Component {
                         <p className="col-md-10">If you'd like to help our cause, share this app or <a href="/Volunteer">come volunteer</a> with us in Austin, TX!</p>
                         {/* <p className="col-md-10">Donations go towards our volunteer movement in Austin as well as improvement, outreach and development of our platform! To help us, click below, thank you! </p> */}
                         <div className="d-flex">
-                            <a className="btn mx-3 btn-dark btn-md" href="paypal.me/HeatherBarr332" role="button">Donate</a>
+                            <a className="btn mx-3 btn-dark btn-md" href="https://www.paypal.me/HeatherBarr332" role="button">Donate</a>
                             <a className="btn mx-3 btn-dark btn-md" href="mailto:hnbarr94@gmail.com">Contact Us!</a>
                         </div>
                     </div>
