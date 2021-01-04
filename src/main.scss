@@ -5,6 +5,7 @@
 @import "./../node_modules/bootstrap/scss/mixins";
 
 body {
+    height: 100%;
     margin: 0;
     // font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     //   'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -56,13 +57,18 @@ html {
         // background-color: #D8B061 !important;
         background-image: url(./images/cork-board.png);
         #note {
-            position:relative;
+            position: relative;
             -ms-transform: rotate(7deg); /* IE 9 */
             -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
             transform: rotate(2deg);
             border-radius: 2px;
             background-image: url(./images/linedpaper.png);
             box-shadow: 4px 4px 0px $dark;
+            // .btn{
+            //     position: absolute;
+            //     bottom: 5px;
+            //     right: 25%;
+            // }
         }
     }
 }
@@ -111,8 +117,19 @@ html {
     }
 }
 
+//single component pages
+.defaultStyle {
+    min-height: 90vh;
+}
+
+//page content
+.content {
+    min-height: 100%;
+}
 // Footer
 #footer {
+    height: auto;
+    margin-top: auto;
     .btn-link {
         color: $light;
         text-decoration: none;

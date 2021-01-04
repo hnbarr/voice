@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 export default class Vote extends Component {
     render() {
         return (
-            <div id="VoteComponent" className="component">
+            <div id="VoteComponent">
                 <div className="mobile-spacer"></div>
                 <div className="jumbotron text-center">
                     <h1 className="display-4 mt-4 mt-md-0">Are you #voteready?</h1>

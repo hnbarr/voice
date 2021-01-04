@@ -3,19 +3,32 @@ import React, { Component } from 'react'
 export default class Purpose extends Component {
     render() {
         return (
-            <div id="PurposeComponent" className="component">
+            <div id="PurposeComponent">
             <div className="mobile-spacer"></div>
                 <div className="jumbotron row container">
                     <div className="col-10 offset-1">
-                        <h1 className="display-2 mt-4 mt-md-0">Why we're doing this.</h1>
-                        <p className="lead col-md-8">Recently we wanted to do more and become more involved in our part of making a difference by voting, in our local, state and US elections. We believe it's important for others to do so as well. </p>
-                        <p className="col-md-8">
+                        <h1 className="display-4 mt-4 mt-md-0">Why we're doing this.</h1>
+                        {/* <p className="lead col-md-10">Recently we wanted to do more and become more involved in our part of making a difference by voting, in our local, state and US elections. We believe it's important for others to do so as well. </p>
+                        <p className="col-md-10">
                             <hr className="my-4"/>
                             <span>
                                 The main ssue we ran into though, was it's kindof confusing to find out the details of how voting works and what we needed to do to get-it-together. Finding information on voting, the positions and their pull, all the details of how registration works, and everything else along the way has been such a pain in the butt for us.
                             </span>
+                        </p> */}
+                        <h4 className="mt-3">
+                        If 2020 taught us anything, it's that we all can do better.  
+                        </h4>
+                        <p className="col-md-10">
+                        We can be more educated about each other, our past, our cultures, our government, our systemic issues and ourselves.
                         </p>
-                        <p className="col-md-8">We're trying to help with that, so if you'd like to help support our cause, share this app, talk about voting, register and head to the polls when it's time! Also, if you'd like to support us, <b>we love donations</b>, thank you! </p>
+                        <p className="col-md-10">
+                            <span>
+                                We're hoping to a resource for those of you who are trying to self educate and to become involved in making the world a better place for everyone and everything. 
+                            </span>    
+                        </p>
+                        <hr className="my-4"/>
+                        <p className="col-md-10">If you'd like to help our cause, share this app or <a href="/Volunteer">come volunteer</a> with us in Austin, TX!</p>
+                        <p className="col-md-10">Donations go towards our volunteer movement in Austin as well as improvement, outreach and development of our platform! To help us, click below, thank you! </p>
                         <a className="btn btn-dark btn-lg" href="paypal.me/HeatherBarr332" role="button">Donate</a>
                     </div>
                 </div>

@@ -10,26 +10,6 @@
   margin: 3rem 0;
 }
 
-.btn-peach {
-  background-color: #F1BB9B !important;
-}
-
-.btn-purple {
-  background-color: #4B3F73 !important;
-}
-
-.btn-sherbert {
-  background-color: #F2A662 !important;
-}
-
-.btn-rose {
-  background-color: #D97373 !important;
-}
-
-.btn-navy {
-  background-color: #282c34 !important;
-}
-
 /*!
  * Bootstrap v5.0.0-alpha1 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors
@@ -10812,6 +10792,7 @@ button.close {
 }
 
 body {
+  height: 100%;
   margin: 0;
   font-family: 'Lexend Mega', sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -10915,6 +10896,19 @@ html {
 #PurposeComponent .jumbotron {
   background-image: url(./images/memphis-mini.png);
   min-height: 100vh;
+}
+
+.defaultStyle {
+  min-height: 90vh;
+}
+
+.content {
+  min-height: 100%;
+}
+
+#footer {
+  height: auto;
+  margin-top: auto;
 }
 
 #footer .btn-link {

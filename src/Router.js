@@ -5,6 +5,7 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Vote from './components/Vote'
 import Home from './components/Home';
+import Volunteer from './components/Volunteer';
 import RegistrationInfo from './components/RegistrationInfo';
 import Purpose from './components/Purpose';
 
@@ -16,6 +17,7 @@ const Router = () => {
                 <Switch>
                     <Route exact path='/' component={Home}></Route>
                     <Route path='/WhoWeAre' component={Purpose}></Route>
+                    <Route path='/Volunteer' component={Volunteer}></Route>
                     <Route path='/VoteReady' component={Vote}></Route>
                     <Route path='/RegisterNow' component={RegistrationInfo}></Route>
                     <Route path='/CheckMyRegistration' component={RegistrationInfo}></Route>

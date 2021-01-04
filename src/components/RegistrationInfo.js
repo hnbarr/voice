@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 export default class RegistrationInfo extends Component {
     render() {
         return (
-            <div id="RegistrationInfoComponent" className="component">
+            <div id="RegistrationInfoComponent">
                 <div className="mobile-spacer"></div>
                 <div className="jumbotron text-center row m-0">
                     <h1 className="col-10 offset-1 display-4 mt-4 mt-md-0">Learn More</h1>
