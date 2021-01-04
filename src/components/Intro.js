@@ -4,8 +4,8 @@ export default class Intro extends Component {
     render() {
         return (
             <div id="IntroComponent">
-            <div className="mobile-spacer"></div>
-                <div className="jumbotron">
+            {/* <div className="mobile-spacer"></div> */}
+                <div className="jumbotron mb-0">
                     <div className="row d-flex justify-content-center">
                         <h1 className="col-12 display-2 mt-4 mt-md-0">My Voice Matters</h1>
                         <div id="note" className="col mt-3 p-3 col-10 col-md-8 col-lg-6">
@@ -24,7 +24,7 @@ export default class Intro extends Component {
                             ?
                             </p>
                             <div className="text-center my-4 py-3">
-                                <a className="btn btn-dark btn-lg" href="/WhoWeAre" role="button">Get Involved</a>
+                                <a className="btn btn-dark btn-lg" href="/WhoWeAre" role="button">About Us</a>
                             </div>
                         </div>
                     </div>

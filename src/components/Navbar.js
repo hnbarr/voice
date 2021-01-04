@@ -10,17 +10,29 @@ export default class Navbar extends Component {
                     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
-                    <div className="collapse navbar-collapse" id="navbarSupportedContent">
+                    <div className="collapse navbar-collapse row" id="navbarSupportedContent">
                         <ul className="navbar-nav mr-auto">
-                        <li className="nav-item mx-3 active">
+                        <li className="nav-item col text-center">
+                            <a className="nav-link" href="/Volunteer">Get Involved</a>
+                        </li>
+                        <li className="nav-item col text-center">
+                            <a className="nav-link" href="/Topics">Topics</a>
+                        </li>
+                        {/* <li className="nav-item col text-center secondary col">
+                            <a className="nav-link" href="/VoteReady">Get #voteready!</a>
+                        </li> */}
+                        {/* <li className="nav-item col text-center">
+                            <a className="nav-link" href="/RegisterNow">Resources!</a>
+                        </li> */}
+                        {/* <li className="nav-item col text-center active">
                             <a className="nav-link" href="/VoteReady">Vote</a>
                         </li>
-                        <li className="nav-item mx-3">
+                        <li className="nav-item col text-center">
                             <a className="nav-link disabled" href="/RegisterNow">Register Now</a>
                         </li>
-                        <li className="nav-item mx-3">
+                        <li className="nav-item col text-center">
                             <a className="nav-link disabled" href="/CheckMyRegistration">Check My Registration Status</a>
-                        </li>
+                        </li> */}
                         </ul>
                         {/* <form className="form-inline my-2 my-lg-0">
                         <input className="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"/>

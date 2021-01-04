@@ -2,12 +2,13 @@ import React from 'react'
 import { Switch, Route, BrowserRouter } from 'react-router-dom'
 // import components here
 import Navbar from './components/Navbar';
-import Footer from './components/Footer';
+// import Footer from './components/Footer';
 import Vote from './components/Vote'
 import Home from './components/Home';
 import Volunteer from './components/Volunteer';
 import RegistrationInfo from './components/RegistrationInfo';
 import Purpose from './components/Purpose';
+import Topics from './components/Topics';
 
 const Router = () => {
     return (
@@ -18,6 +19,7 @@ const Router = () => {
                     <Route exact path='/' component={Home}></Route>
                     <Route path='/WhoWeAre' component={Purpose}></Route>
                     <Route path='/Volunteer' component={Volunteer}></Route>
+                    <Route path='/Topics' component={Topics}></Route>
                     <Route path='/VoteReady' component={Vote}></Route>
                     <Route path='/RegisterNow' component={RegistrationInfo}></Route>
                     <Route path='/CheckMyRegistration' component={RegistrationInfo}></Route>
@@ -26,7 +28,7 @@ const Router = () => {
                     <Route path="/USRegistrationInformation" component={RegistrationInfo}></Route>
                 </Switch>
             </BrowserRouter>
-            <Footer/>
+            {/* <Footer/> */}
         </div>
     );
 }

@@ -30,9 +30,9 @@ html {
     html {
       font-size: .95rem;
     }
-    .jumbotron {
-        min-height: 80vh;
-    }
+    // .jumbotron {
+    //     min-height: 80vh;
+    // }
   }
 
 .App {
@@ -111,25 +111,29 @@ html {
 }
 
 #PurposeComponent {
-    .jumbotron {
+    .row {
         background-image: url(./images/memphis-mini.png);
-        min-height: 100vh;
+        p {
+            margin: 1.5rem 0;
+        }
     }
+
 }
 
 //single component pages
-.defaultStyle {
-    min-height: 90vh;
+.fullPage {
+    min-height: 100vh;
+
 }
 
-//page content
-.content {
-    min-height: 100%;
-}
 // Footer
 #footer {
     height: auto;
     margin-top: auto;
+    .text-light a {
+        color: $light;
+        text-decoration: none;
+    }
     .btn-link {
         color: $light;
         text-decoration: none;
