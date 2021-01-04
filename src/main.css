@@ -4362,7 +4362,6 @@ fieldset:disabled .btn {
   font-size: 1.25rem;
   line-height: 1;
   background-color: transparent;
-  border: 1px solid transparent;
   border-radius: 0.25rem;
   -webkit-transition: -webkit-box-shadow 0.15s ease-in-out;
   transition: -webkit-box-shadow 0.15s ease-in-out;
@@ -4384,8 +4383,6 @@ fieldset:disabled .btn {
 .navbar-toggler:focus {
   text-decoration: none;
   outline: 0;
-  -webkit-box-shadow: 0 0 0 0.2rem;
-          box-shadow: 0 0 0 0.2rem;
 }
 
 .navbar-toggler-icon {
@@ -4614,7 +4611,6 @@ fieldset:disabled .btn {
 
 .navbar-light .navbar-toggler {
   color: rgba(0, 0, 0, 0.55);
-  border-color: rgba(0, 0, 0, 0.1);
 }
 
 .navbar-light .navbar-toggler-icon {
@@ -4658,7 +4654,6 @@ fieldset:disabled .btn {
 
 .navbar-dark .navbar-toggler {
   color: rgba(255, 255, 255, 0.55);
-  border-color: rgba(255, 255, 255, 0.1);
 }
 
 .navbar-dark .navbar-toggler-icon {
@@ -10888,6 +10883,11 @@ html {
 
 .fullPage {
   min-height: 100vh;
+}
+
+.navbar-toggler {
+  border: none !important;
+  border-color: none !important;
 }
 
 #footer {

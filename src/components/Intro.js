@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 export default class Intro extends Component {
     render() {
         return (
-            <div id="IntroComponent">
+            <div id="IntroComponent" className="py-2">
             {/* <div className="mobile-spacer"></div> */}
                 <div className="jumbotron mb-0">
                     <div className="row d-flex justify-content-center">
